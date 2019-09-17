@@ -3,12 +3,24 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
+      <class name="GoogleSearchPageTest">
+        <methods>
+          <include name="googleSearchTest"/>
+          <include name="main"/>
+        </methods>
+      </class> <!-- GoogleSearchPageTest -->
       <class name="HalfRegisterationTest">
         <methods>
           <include name="main"/>
           <include name="registerationVerification"/>
         </methods>
       </class> <!-- HalfRegisterationTest -->
+      <class name="Assignment2Test">
+        <methods>
+          <include name="main"/>
+          <include name="verification"/>
+        </methods>
+      </class> <!-- Assignment2Test -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
