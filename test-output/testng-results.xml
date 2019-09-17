@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="2" ignored="0" total="2" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="3119" started-at="2019-09-17T09:25:14Z" finished-at="2019-09-17T09:25:17Z">
+  <suite name="Default suite" duration-ms="2897" started-at="2019-09-17T09:40:57Z" finished-at="2019-09-17T09:41:00Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="3119" started-at="2019-09-17T09:25:14Z" finished-at="2019-09-17T09:25:17Z">
+    <test name="Default test" duration-ms="2897" started-at="2019-09-17T09:40:57Z" finished-at="2019-09-17T09:41:00Z">
       <class name="HalfRegisterationTest">
-        <test-method status="FAIL" signature="main([Ljava.lang.String;)[pri:0, instance:HalfRegisterationTest@2d928643]" name="main" duration-ms="0" started-at="2019-09-17T14:55:14Z" finished-at="2019-09-17T14:55:14Z">
+        <test-method status="FAIL" signature="main([Ljava.lang.String;)[pri:0, instance:HalfRegisterationTest@2d928643]" name="main" duration-ms="0" started-at="2019-09-17T15:10:57Z" finished-at="2019-09-17T15:10:57Z">
           <exception class="org.testng.TestNGException">
             <message>
               <![CDATA[
@@ -48,7 +48,7 @@ For more information on native dependency injection please refer to http://testn
           <reporter-output>
           </reporter-output>
         </test-method> <!-- main -->
-        <test-method status="FAIL" signature="registerationVerification()[pri:0, instance:HalfRegisterationTest@2d928643]" name="registerationVerification" duration-ms="3094" started-at="2019-09-17T14:55:14Z" finished-at="2019-09-17T14:55:17Z">
+        <test-method status="FAIL" signature="registerationVerification()[pri:0, instance:HalfRegisterationTest@2d928643]" name="registerationVerification" duration-ms="2873" started-at="2019-09-17T15:10:57Z" finished-at="2019-09-17T15:11:00Z">
           <exception class="java.lang.NullPointerException">
             <full-stacktrace>
               <![CDATA[java.lang.NullPointerException
