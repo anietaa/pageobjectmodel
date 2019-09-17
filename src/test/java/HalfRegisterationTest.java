@@ -18,7 +18,7 @@ public class HalfRegisterationTest {
 		
 		HalfComRegisteration hcReg = new HalfComRegisteration(driver);
 		driver.get("https://scgi.half.ebay.com/ws/eBayISAPI.dll?RegisterEnterInfo&usage=2943&ru=");
-		/*hcReg.setInputFirstNmae("Anita");
+		hcReg.setInputFirstNmae("Anita");
 		hcReg.setInputLastName("Pal");
 		hcReg.setStreetAddress1("Anderson");
 		hcReg.setStreetAddress2("Henry Township");
@@ -42,7 +42,7 @@ public class HalfRegisterationTest {
 		hcReg.selectBirthDay("15");
 		hcReg.selectBirthYear("1988");
 		hcReg.clickOnAgree();
-		hcReg.clickOnCont();*/
+		hcReg.clickOnCont();
 		
 		
 		
